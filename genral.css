@@ -1,0 +1,90 @@
+.header {
+  background-color: var(--color-blue);
+}
+.navbar {
+  max-width: 104.6rem;
+  width: 97%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4.9rem;
+  padding-bottom: 4rem;
+}
+
+.header__menu ul {
+  display: flex;
+  gap: 4rem;
+  color: var(--color-black);
+  font-family: Roboto;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.header__menu a {
+  color: var(--color-black);
+  opacity: 0.7;
+}
+.active {
+  opacity: 1;
+}
+
+.header__search {
+  border-radius: 69px;
+  background-color: var(--color-white);
+  width: 273px;
+  height: 49px;
+  flex-shrink: 0;
+  gap: 15px;
+}
+.shopping_icon {
+  color: var(--color-dark-orange);
+}
+
+.header__content {
+  max-width: 104.6rem;
+  width: 97%;
+  margin: 0 auto;
+  gap: 7rem;
+}
+
+.header__content-info{
+    flex: 1;
+}
+
+.header__content-info h1 {
+  color: var(--black, #040522);
+  font-family: Lexend;
+  font-size: 6.1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 7.23rem;
+}
+
+
+.header__content-img img {
+  object-fit: cover;
+  margin-right: -20rem;
+}
+
+
+
+.main .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+ .main  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 499px;
+  }
+
+  .main .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
